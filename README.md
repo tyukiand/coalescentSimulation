@@ -18,4 +18,4 @@ Scala, and can be started as follows:
     scala coalescentSimulation.scala --help
 
 Consult the comments and the help to find out how to 
-run experiments and what options are available.
+run the experiments and what options are available.

@@ -1,0 +1,5 @@
+#!/bin/bash
+cat coalescentSimulation.scala > BACKUP_coalescentSimulation.scala
+scala coalescentSimulation.scala --create-index < coalescentSimulation.scala > formatted.scala && 
+cat formatted.scala > coalescentSimulation.scala 
+rm formatted.scala
